@@ -11,6 +11,13 @@ public class Main {
 		author.setName("Thomsan");
 		book.setAuthor("Mick Tyson");
 		System.out.println(book);
+		
+		Book book1=new Book();
+		book.setTitle("Complete Spring");
+		Author author1 = new Author();
+		author.setName("Overtank");
+		book.setAuthor("Root cook");
+		System.out.println(book);
 	}
 
 }
